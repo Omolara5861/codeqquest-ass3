@@ -1,0 +1,95 @@
+        /* Variables */
+        :root {
+            --h1-font: font-family: 'Chelsea Market', cursive;
+            --body-font: font-family: 'Gamja Flower', cursive;
+            --header-bg: #e4572e;
+            --body-bg: #fffff2;
+            --border: 4px solid #050401;
+            --boox-shadow: 3px 3px 0 0 #e4572e;
+          }
+        
+        
+        
+        
+          html{font-family: cursive;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%
+        }
+
+        body {
+            font-family:var(--body-font);
+            font-size:14px;
+            line-height:1.42857;
+            color:#333;
+            background-color: var(--body-bg);
+            font-weight: lighter;
+        }
+
+        .btn {
+            text-decoration: none;
+            background-color: var(--header-bg);
+            color: white;
+            padding: 12px 15px;
+            border-radius: 5px;
+        }
+
+        img {
+            width: 300px;
+            height: 200px;
+            padding: 20px;
+            box-shadow: var(--boox-shadow);
+        }
+
+        .img {
+            width: 500px;
+        }
+        
+        #header {
+            background-color:var(--header-bg);
+            text-align: center;
+            padding: 130px;
+            font-family: var(--h1-font);
+        }
+
+        #footer{
+            background-color:var(--header-bg);
+            padding: 100px;
+            /* text-align: center; */
+        }
+
+
+        .big {
+            font-size: 50px;
+        }
+
+        .big-p {
+            font-size: 30px;
+        }
+
+        .spacer {
+            height: 1px;
+            background-color: #fff;
+            border: none;
+            width: 800px;
+        }
+
+        .heading  {
+            color: var(--header-bg);
+            text-align: center;
+            font-family: var(--h1-font);
+        }
+
+        label {
+            margin-bottom: 30px;
+        }
+
+        input {
+            padding: 10px;
+            width: 600px;
+        }
+
+        textarea {
+            padding: 30px;
+            width: 560px;
+        }
+   
